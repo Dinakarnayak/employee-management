@@ -1,0 +1,46 @@
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"🚀 Server running on port 5000"}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+{"level":"info","message":"⏰ Running scheduled task..."}
+info: 🚀 Server running on port 5000 {"timestamp":"2025-02-04T16:14:02.105Z"}
+info: SIGINT signal received: closing HTTP server {"timestamp":"2025-02-04T16:14:33.219Z"}
+info: HTTP server closed {"timestamp":"2025-02-04T16:14:33.224Z"}
+info: Cron jobs stopped {"timestamp":"2025-02-04T16:14:33.226Z"}
+info: 🚀 Server running on port 5000 {"timestamp":"2025-02-04T16:14:46.786Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:15:00.868Z"}
+info: Root route accessed {"timestamp":"2025-02-04T16:15:20.355Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:16:00.235Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:17:00.651Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:18:00.098Z"}
+info: SIGINT signal received: closing HTTP server {"timestamp":"2025-02-04T16:18:20.637Z"}
+info: HTTP server closed {"timestamp":"2025-02-04T16:18:20.639Z"}
+info: Cron jobs stopped {"timestamp":"2025-02-04T16:18:20.640Z"}
+info: 🚀 Server running on port 5000 {"timestamp":"2025-02-04T16:18:25.986Z"}
+info: Root route accessed {"timestamp":"2025-02-04T16:18:42.276Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:19:00.188Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:20:00.657Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:21:00.039Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:22:00.435Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:23:00.825Z"}
+info: ⏰ Running scheduled task... {"timestamp":"2025-02-04T16:24:00.217Z"}
+info: SIGINT signal received: closing HTTP server {"timestamp":"2025-02-04T16:24:16.993Z"}
+info: HTTP server closed {"timestamp":"2025-02-04T16:24:16.995Z"}
+info: Cron jobs stopped {"timestamp":"2025-02-04T16:24:16.996Z"}
+{"level":"error","message":"Error: Unknown column 'NaN' in 'where clause'","stack":"Error\n    at Query.run (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\dialects\\mysql\\query.js:46:25)\n    at C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\sequelize.js:650:28\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async MySQLQueryInterface.select (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\dialects\\abstract\\query-interface.js:1001:12)\n    at async Function.findAll (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\model.js:1824:21)\n    at async Function.findOne (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\model.js:1998:12)\n    at async Function.findByPk (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\model.js:1955:12)","timestamp":"2025-02-04T16:25:53.903Z"}
+{"level":"error","message":"Error: authSwitch.authSwitchRequest is not a function","stack":"SequelizeConnectionError: authSwitch.authSwitchRequest is not a function\n    at ConnectionManager._callee$ (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:161:21)\n    at tryCatch (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:4:1062)\n    at Generator.<anonymous> (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:4:3008)\n    at Generator.throw (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:4:1699)\n    at asyncGeneratorStep (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:5:70)\n    at _throw (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:6:241)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-04T17:10:31.627Z"}
+{"level":"error","message":"Error: authSwitch.authSwitchRequest is not a function","stack":"SequelizeConnectionError: authSwitch.authSwitchRequest is not a function\n    at ConnectionManager.connect (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\dialects\\mysql\\connection-manager.js:134:13)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at ConnectionManager._connect (C:\\Users\\Admin\\Downloads\\employee-management\\node_modules\\sequelize\\src\\dialects\\abstract\\connection-manager.js:332:24)","timestamp":"2025-02-05T04:36:34.376Z"}

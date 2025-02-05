@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                   // ES2022 supports modern JS features
+    "module": "CommonJS",                 // Use CommonJS for compatibility with Node.js
+    "moduleResolution": "Node",           // Node-style module resolution (imports, requires)
+    "outDir": "./dist",                   // Output the compiled JS files into the dist directory
+    "rootDir": "./src",                   // The root directory for TypeScript files
+    "strict": true,                       // Enable all strict type checking options
+    "esModuleInterop": true,              // Enable compatibility for CommonJS imports
+    "skipLibCheck": true,                 // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file casing across the project
+    "types": ["jest", "node"],            // Include types for Jest and Node.js
+    "resolveJsonModule": true,            // Enable importing JSON files as modules
+    "allowSyntheticDefaultImports": true, // Allow synthetic default imports (default for non-ES modules)
+    "experimentalDecorators": true,       // Enable experimental decorators (if using libraries like TypeORM)
+    "emitDecoratorMetadata": true         // Emit metadata for decorators
+  },
+  "include": [
+    "src/**/*.ts",  // Include all .ts files in the src directory
+    "tests/**/*.ts" // Include .ts test files
+  ],
+  "exclude": [
+    "node_modules", // Exclude the node_modules directory from being compiled
+    "dist"          // Exclude the dist directory (where compiled files go)
+  ]
+}
